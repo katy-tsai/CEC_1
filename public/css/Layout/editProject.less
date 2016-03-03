@@ -1,0 +1,120 @@
+.editContainer{
+  display: block;
+  float: left;
+  width: 99%;
+  margin: 5px ;
+  background-color: @optPlane-color;
+  overflow-y: auto;
+}
+
+.list-table{
+    width: 100%;
+
+}
+
+.list-table >thead>tr>th{
+    border:1px solid #ddd;
+    padding: 10px;
+    background-color: @form-main-color;
+    color:#fff;
+    vertical-align: middle;
+
+}
+.list-table >tbody>tr>td.edit-icon{
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color:#4A627E;
+}
+.list-table >tbody>tr.rowActive{
+    background-color: #FFFF99;
+}
+.list-table >tbody>tr>td{
+    border:1px solid #ddd;
+    padding: 10px 10px;
+}
+.baseArea::after{
+  content: 'M';
+}
+.totalFloorArea::after{
+  content: 'M';
+}
+.tfooter{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.pagination{
+  width: 25px;
+  padding: 5px;
+  margin: 2px ;
+  border:1px solid #ddd;
+  background-color: @form-main-color;
+  color:#fff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.pagination.active{
+  background-color:#7ABCB3;
+  color:#fff;
+}
+.pagination:hover{
+  cursor: pointer;
+}
+.noteWorkItems{
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #616161;
+  opacity: 0.5;
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10%;
+}
+.editItem_div{
+  margin: 0;
+  padding: 0;
+}
+
+.tree_open_img {
+  background-image: url(data:image/gif;base64,R0lGODlhEgASAJEAAP///4SEhAAAAP///yH5BAUUAAMALAAAAAASABIAAAImnI+py+0Powq01haA3iBgvnlMBnafgKLmWK4LCYpvK0+WJeX6DhUAOw==);
+}
+
+.tree_close_img {
+    background-image: url(data:image/gif;base64,R0lGODlhEgASAJEAAP///4SEhAAAAP///yH5BAUUAAMALAAAAAASABIAAAIqnI+py+0Powq01haA3iDgLWwek2mhNi6ZwLLdZ4owcL4kJ5OWJfX+DykAADs=);
+}
+
+.tree_click {
+  float: left;
+  width: 20px;
+  height: 15px;
+  padding: 2px;
+  cursor: pointer;
+  margin: 0;
+  background-repeat: no-repeat;
+}
+.tree-row{
+  line-height: 20px;
+  padding: 5px;
+  width: 100%;
+}
+
+.tree-node:hover{
+  cursor: pointer;
+
+}
+.tree-view-active{
+  background: #FFF59D;
+}
+
+.view_title{
+  text-align: center;
+  font-weight: bold;
+  padding: 2px 0;
+}
